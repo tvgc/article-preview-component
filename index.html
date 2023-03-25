@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/styles/css/style.css">
   
   <title>Frontend Mentor | Article preview component</title>
 
@@ -15,22 +16,64 @@
   </style>
 </head>
 <body>
+  <main>
+    <section>
+      <div class="container">
+        <div class="top-left">
+          <!-- <img src="assets/images/drawers.jpg" alt="drawers"> -->
+        </div>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+        <div class="bottom-right">
+          <div class="container-content">
+            <p class="desc">
+              Shift the overall look and feel by adding these wonderful touches to furniture in your home
+            </p>
+            <p class="content">
+              Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+            </p>
+          </div>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+          <div class="user">
+            <img src="assets/images/avatar-michelle.jpg" alt="" class="avatar">
 
-  Michelle Appleton
-  28 Jun 2020
+            <div class="user-name">
+              Michelle Appleton
+            </div>
 
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            <div class="date">
+              28 Jun 2020
+            </div>
+            
+            <div class="share-img" id="shareUserButton">
+              <img src="assets/images/icon-share.svg" alt="">
+            </div>
+          </div>
+
+          <div class="share-medias">
+            <p class="share">Share</p>
+
+            <div class="medias">
+              <div class="media">
+                <img src="assets/images/icon-facebook.svg" alt="">
+              </div>
+              <div class="media">
+                <img src="assets/images/icon-twitter.svg" alt="">
+              </div>
+              <div class="media">
+                <img src="assets/images/icon-pinterest.svg" alt="">
+              </div>
+            </div>
+
+            <div class="share-img" id="shareMediasButton">
+              <img src="assets/images/icon-share.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+
 </body>
 </html>
